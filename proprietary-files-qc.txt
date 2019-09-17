@@ -149,7 +149,6 @@ vendor/lib64/libxml.so
 vendor/bin/hvdcp_opti
 
 # DPM
-vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
@@ -508,8 +507,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
+# Radio (IMS) - from Mata
+-app/ims/ims.apk
+
 # Radio - IMS
--priv-app/ims/ims.apk
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/com.qualcomm.qti.imscmservice@2.0.so
 lib/com.qualcomm.qti.imscmservice@2.1.so
