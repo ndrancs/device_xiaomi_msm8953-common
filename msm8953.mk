@@ -20,8 +20,8 @@ $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+# RRO
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
