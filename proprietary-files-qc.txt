@@ -508,7 +508,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
 # Radio (IMS) - from Mata
--app/ims/ims.apk
+-app/ims/ims.apk|99052a0da79c597cf30031d3dcfa09ffebc56ace
 
 # Radio - IMS
 lib/com.qualcomm.qti.imscmservice@1.0.so
